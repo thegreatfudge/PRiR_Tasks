@@ -1,0 +1,67 @@
+Histogram min: 1275 max: 3775
+Wynik na podstawie 5000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 5000 razy
+Wynik na podstawie 10000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 10000 razy
+Wynik na podstawie 15000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 15000 razy
+Wynik na podstawie 20000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 20000 razy
+Wynik na podstawie 25000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 25000 razy
+Wynik na podstawie 30000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 30000 razy
+Wynik na podstawie 35000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 35000 razy
+Wynik na podstawie 40000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 40000 razy
+Wynik na podstawie 45000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 45000 razy
+Wynik na podstawie 50000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 50000 razy
+Wynik na podstawie 55000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 55000 razy
+Wynik na podstawie 60000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 60000 razy
+Wynik na podstawie 65000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 65000 razy
+Wynik na podstawie 70000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 70000 razy
+Wynik na podstawie 75000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 75000 razy
+Wynik na podstawie 80000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 80000 razy
+Wynik na podstawie 85000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 85000 razy
+Wynik na podstawie 90000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 90000 razy
+Wynik na podstawie 95000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 95000 razy
+Wynik na podstawie 100000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 100000 razy
+Wynik na podstawie 105000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 105000 razy
+Wynik na podstawie 110000 eksperymentow 
+ - srednia wazona to                1275
+ - najczesciej pojawila sie wartosc 1275 wystapila ona 110000 razy

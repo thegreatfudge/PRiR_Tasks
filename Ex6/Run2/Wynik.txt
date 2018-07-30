@@ -1,0 +1,388 @@
+Histogram min: 1 max: 5000000
+Wynik na podstawie 1 eksperymentow 
+ - srednia wazona to                4.20094e+06
+ - najczesciej pojawila sie wartosc 4.20094e+06 wystapila ona 1 razy
+Wynik na podstawie 2 eksperymentow 
+ - srednia wazona to                4.05822e+06
+ - najczesciej pojawila sie wartosc 3.9155e+06 wystapila ona 1 razy
+Wynik na podstawie 3 eksperymentow 
+ - srednia wazona to                4.22489e+06
+ - najczesciej pojawila sie wartosc 3.9155e+06 wystapila ona 1 razy
+Wynik na podstawie 4 eksperymentow 
+ - srednia wazona to                3.5877e+06
+ - najczesciej pojawila sie wartosc 1.67611e+06 wystapila ona 1 razy
+Wynik na podstawie 5 eksperymentow 
+ - srednia wazona to                3.14793e+06
+ - najczesciej pojawila sie wartosc 1.38887e+06 wystapila ona 1 razy
+Wynik na podstawie 6 eksperymentow 
+ - srednia wazona to                3.02111e+06
+ - najczesciej pojawila sie wartosc 1.38887e+06 wystapila ona 1 razy
+Wynik na podstawie 7 eksperymentow 
+ - srednia wazona to                2.85008e+06
+ - najczesciej pojawila sie wartosc 1.38887e+06 wystapila ona 1 razy
+Wynik na podstawie 8 eksperymentow 
+ - srednia wazona to                3.08896e+06
+ - najczesciej pojawila sie wartosc 1.38887e+06 wystapila ona 1 razy
+Wynik na podstawie 9 eksperymentow 
+ - srednia wazona to                3.09892e+06
+ - najczesciej pojawila sie wartosc 1.38887e+06 wystapila ona 1 razy
+Wynik na podstawie 10 eksperymentow 
+ - srednia wazona to                2.85983e+06
+ - najczesciej pojawila sie wartosc 708013 wystapila ona 1 razy
+Wynik na podstawie 11 eksperymentow 
+ - srednia wazona to                2.60725e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 12 eksperymentow 
+ - srednia wazona to                2.44716e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 13 eksperymentow 
+ - srednia wazona to                2.31918e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 14 eksperymentow 
+ - srednia wazona to                2.19988e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 15 eksperymentow 
+ - srednia wazona to                2.38619e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 16 eksperymentow 
+ - srednia wazona to                2.39735e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 17 eksperymentow 
+ - srednia wazona to                2.43652e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 18 eksperymentow 
+ - srednia wazona to                2.47825e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 19 eksperymentow 
+ - srednia wazona to                2.47771e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 20 eksperymentow 
+ - srednia wazona to                2.42695e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 21 eksperymentow 
+ - srednia wazona to                2.4368e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 22 eksperymentow 
+ - srednia wazona to                2.417e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 23 eksperymentow 
+ - srednia wazona to                2.3735e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 24 eksperymentow 
+ - srednia wazona to                2.44288e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 25 eksperymentow 
+ - srednia wazona to                2.35912e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 26 eksperymentow 
+ - srednia wazona to                2.36953e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 27 eksperymentow 
+ - srednia wazona to                2.31737e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 28 eksperymentow 
+ - srednia wazona to                2.39358e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 29 eksperymentow 
+ - srednia wazona to                2.3221e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 30 eksperymentow 
+ - srednia wazona to                2.32098e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 31 eksperymentow 
+ - srednia wazona to                2.28454e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 32 eksperymentow 
+ - srednia wazona to                2.35412e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 33 eksperymentow 
+ - srednia wazona to                2.32319e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 34 eksperymentow 
+ - srednia wazona to                2.31004e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 35 eksperymentow 
+ - srednia wazona to                2.31726e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 36 eksperymentow 
+ - srednia wazona to                2.32672e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 37 eksperymentow 
+ - srednia wazona to                2.32298e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 38 eksperymentow 
+ - srednia wazona to                2.38432e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 39 eksperymentow 
+ - srednia wazona to                2.35963e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 40 eksperymentow 
+ - srednia wazona to                2.38064e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 41 eksperymentow 
+ - srednia wazona to                2.40646e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 42 eksperymentow 
+ - srednia wazona to                2.40156e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 43 eksperymentow 
+ - srednia wazona to                2.44213e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 44 eksperymentow 
+ - srednia wazona to                2.41264e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 45 eksperymentow 
+ - srednia wazona to                2.39796e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 46 eksperymentow 
+ - srednia wazona to                2.44979e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 47 eksperymentow 
+ - srednia wazona to                2.46759e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 48 eksperymentow 
+ - srednia wazona to                2.46197e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 49 eksperymentow 
+ - srednia wazona to                2.45239e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 50 eksperymentow 
+ - srednia wazona to                2.47176e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 51 eksperymentow 
+ - srednia wazona to                2.4706e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 52 eksperymentow 
+ - srednia wazona to                2.51446e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 53 eksperymentow 
+ - srednia wazona to                2.48094e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 54 eksperymentow 
+ - srednia wazona to                2.49436e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 55 eksperymentow 
+ - srednia wazona to                2.50533e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 56 eksperymentow 
+ - srednia wazona to                2.53078e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 57 eksperymentow 
+ - srednia wazona to                2.52559e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 58 eksperymentow 
+ - srednia wazona to                2.49821e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 59 eksperymentow 
+ - srednia wazona to                2.50302e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 60 eksperymentow 
+ - srednia wazona to                2.47544e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 61 eksperymentow 
+ - srednia wazona to                2.44332e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 62 eksperymentow 
+ - srednia wazona to                2.44386e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 63 eksperymentow 
+ - srednia wazona to                2.48323e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 64 eksperymentow 
+ - srednia wazona to                2.4979e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 65 eksperymentow 
+ - srednia wazona to                2.51714e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 66 eksperymentow 
+ - srednia wazona to                2.50129e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 67 eksperymentow 
+ - srednia wazona to                2.50758e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 68 eksperymentow 
+ - srednia wazona to                2.48191e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 69 eksperymentow 
+ - srednia wazona to                2.45503e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 70 eksperymentow 
+ - srednia wazona to                2.43168e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 71 eksperymentow 
+ - srednia wazona to                2.40268e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 72 eksperymentow 
+ - srednia wazona to                2.37296e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 73 eksperymentow 
+ - srednia wazona to                2.35252e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 74 eksperymentow 
+ - srednia wazona to                2.37463e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 75 eksperymentow 
+ - srednia wazona to                2.38674e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 76 eksperymentow 
+ - srednia wazona to                2.39741e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 77 eksperymentow 
+ - srednia wazona to                2.37234e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 78 eksperymentow 
+ - srednia wazona to                2.37527e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 79 eksperymentow 
+ - srednia wazona to                2.34963e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 80 eksperymentow 
+ - srednia wazona to                2.3491e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 81 eksperymentow 
+ - srednia wazona to                2.35549e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 82 eksperymentow 
+ - srednia wazona to                2.32993e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 83 eksperymentow 
+ - srednia wazona to                2.3621e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 84 eksperymentow 
+ - srednia wazona to                2.38695e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 85 eksperymentow 
+ - srednia wazona to                2.41757e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 86 eksperymentow 
+ - srednia wazona to                2.44007e+06
+ - najczesciej pojawila sie wartosc 81503 wystapila ona 1 razy
+Wynik na podstawie 87 eksperymentow 
+ - srednia wazona to                2.41226e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 88 eksperymentow 
+ - srednia wazona to                2.41859e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 89 eksperymentow 
+ - srednia wazona to                2.40058e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 90 eksperymentow 
+ - srednia wazona to                2.42463e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 91 eksperymentow 
+ - srednia wazona to                2.41772e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 92 eksperymentow 
+ - srednia wazona to                2.42293e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 93 eksperymentow 
+ - srednia wazona to                2.43383e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 94 eksperymentow 
+ - srednia wazona to                2.43617e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 95 eksperymentow 
+ - srednia wazona to                2.42655e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 96 eksperymentow 
+ - srednia wazona to                2.43132e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 97 eksperymentow 
+ - srednia wazona to                2.4448e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 98 eksperymentow 
+ - srednia wazona to                2.42166e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 99 eksperymentow 
+ - srednia wazona to                2.43928e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 100 eksperymentow 
+ - srednia wazona to                2.45855e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 101 eksperymentow 
+ - srednia wazona to                2.4827e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 102 eksperymentow 
+ - srednia wazona to                2.50264e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 103 eksperymentow 
+ - srednia wazona to                2.51072e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 104 eksperymentow 
+ - srednia wazona to                2.49446e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 105 eksperymentow 
+ - srednia wazona to                2.51303e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 106 eksperymentow 
+ - srednia wazona to                2.51997e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 107 eksperymentow 
+ - srednia wazona to                2.52584e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 108 eksperymentow 
+ - srednia wazona to                2.53488e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 109 eksperymentow 
+ - srednia wazona to                2.52671e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 110 eksperymentow 
+ - srednia wazona to                2.50711e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 111 eksperymentow 
+ - srednia wazona to                2.4946e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 112 eksperymentow 
+ - srednia wazona to                2.49512e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 113 eksperymentow 
+ - srednia wazona to                2.48543e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 114 eksperymentow 
+ - srednia wazona to                2.49518e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 115 eksperymentow 
+ - srednia wazona to                2.49398e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 116 eksperymentow 
+ - srednia wazona to                2.51319e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 117 eksperymentow 
+ - srednia wazona to                2.50608e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 118 eksperymentow 
+ - srednia wazona to                2.50325e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 119 eksperymentow 
+ - srednia wazona to                2.49671e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 120 eksperymentow 
+ - srednia wazona to                2.51062e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 121 eksperymentow 
+ - srednia wazona to                2.51779e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 122 eksperymentow 
+ - srednia wazona to                2.5169e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 123 eksperymentow 
+ - srednia wazona to                2.52538e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 124 eksperymentow 
+ - srednia wazona to                2.53009e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 125 eksperymentow 
+ - srednia wazona to                2.52641e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 126 eksperymentow 
+ - srednia wazona to                2.5331e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 127 eksperymentow 
+ - srednia wazona to                2.52682e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 128 eksperymentow 
+ - srednia wazona to                2.53088e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
+Wynik na podstawie 129 eksperymentow 
+ - srednia wazona to                2.53958e+06
+ - najczesciej pojawila sie wartosc 20809 wystapila ona 1 razy
