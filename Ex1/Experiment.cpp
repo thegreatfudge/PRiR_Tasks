@@ -4,6 +4,7 @@
  */
 
 #include<stdlib.h>
+#include<math.h>
 #include<iostream>
 
 #include "Experiment.h"
@@ -137,7 +138,7 @@ void Experiment::calc() {
 	int numberOfProcesses, currentProcess;
     myMPI->MPI_Comm_size( MPI_COMM_WORLD, &numberOfProcesses);
 	myMPI->MPI_Comm_rank( MPI_COMM_WORLD, &currentProcess);
-	//get time table with times needed of each process to do 10 exsperiments
+	//1. Get time table with times needed of each process to do 10 exsperiments
 	timeTable = new double[numberOfProcesses];
 
 	for(int i=0; i<numberOfProcesses; i++)
@@ -145,11 +146,31 @@ void Experiment::calc() {
 
 	//done
 
+	//2. Count how many tests should each process take
+	//2a. Sum all the times
+	numberOfTestsForEachProcess = new int[numberOfProcesses];
+	double sumOfAllTimes = 0;
+	for(int i=0; i<numberOfProcesses; ++i)
+		sumOfAllTimes += timeTable[i];
+
+	// cout << "Suma wszystkich czasów: " << sumOfAllTimes << endl;
+
+	//2b. Get the sum percentage for each proces
+	int percentageForEachProcessTime[numberOfProcesses];
+	for(int i=0; i<numberOfProcesses; ++i){
+		percentageForEachProcessTime[i] = (timeTable[i]/sumOfAllTimes) * 100;
+		cout << "Procentowa wartosc czasu dla procesu " << i << " to " << percentageForEachProcessTime[i] << "%."
+			 << " Czas wynosi: " << timeTable[i] << " z calosci " << sumOfAllTimes << endl;
+	}
+
+	cout << "######################################################################################" << endl;
+	cout << endl;
+	cout << endl;
 	if(currentProcess == 0){
-		cout << "Tutaj proces " << currentProcess << " i moj czas dla policzenia 10 testow to: " << timeTable[currentProcess] << endl;
+		// cout << "Tutaj proces " << currentProcess << " i moj czas dla policzenia 10 testow to: " << timeTable[currentProcess] << endl;
 	}
 	else{
-		cout << "Tutaj proces " << currentProcess << " i moj czas dla policzenia 10 testow to: " << timeTable[currentProcess] << endl;
+		// cout << "Tutaj proces " << currentProcess << " i moj czas dla policzenia 10 testow to: " << timeTable[currentProcess] << endl;
 
 	}
 	//cout << "TU EXPERIMENT, WTF SIE DZIJE";

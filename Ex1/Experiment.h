@@ -19,6 +19,7 @@ private:
 	bool withReplacement; // losowanie ze zwracaniem
 	long experiments;
 	double *timeTable; //tablica czasów dla threadów
+	int *numberOfTestsForEachProcess;
 
 	long singleExperimentResult();
 	void allBallsToUrn(); // kasowanie pamieci o wybranych z urny kulach
