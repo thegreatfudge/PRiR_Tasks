@@ -11,6 +11,7 @@
 class Experiment {
 private:
 	long *histogram; // histogram
+	long *histogramLocal;
 	bool *used; // wektor pomocniczy przy losowaniu bez zwracania
 	bool *forbidden; // tych kulek nie mozna uzywac
 	int drawsNumber; // liczba kulek do wylosowania

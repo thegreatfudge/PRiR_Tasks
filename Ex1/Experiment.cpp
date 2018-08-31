@@ -23,6 +23,9 @@ Experiment::Experiment(int balls, int drawsNumber) {
 	hmax = this->drawsNumber * (balls-1);
 
 	histogram = new long[hmax];
+	histogramLocal = new long[hmax];
+	timeTable = new double[20];
+	numberOfTestsForEachProcess = new int[20];
 	used = new bool[balls];
 	forbidden = new bool[ balls ];
 	for ( int i = 0; i < balls; i++ )
@@ -30,11 +33,15 @@ Experiment::Experiment(int balls, int drawsNumber) {
 }
 
 double Experiment::getTime(int threadNumber, int numberOfTests){
-	double beginningTime, endTime;
-	beginningTime = MPI_Wtime();
-	for(int i = 0; i < numberOfTests; ++i)
-		histogram[singleExperimentResult()]++;
-	endTime = MPI_Wtime();
+	int currentProcess;
+	myMPI->MPI_Comm_rank( MPI_COMM_WORLD, &currentProcess);
+	double beginningTime = 0, endTime = 0;
+	if(threadNumber == currentProcess){
+		beginningTime = MPI_Wtime();
+		for(int i = 0; i < numberOfTests; ++i)
+			histogramLocal[singleExperimentResult()]++;
+		endTime = MPI_Wtime();
+	}
 	return endTime - beginningTime;
 }
 
@@ -60,6 +67,7 @@ void Experiment::setAllowed( int ball ) {
 void Experiment::clearHistogram() {
 	for (long i = 0; i < hmax; i++) {
 		histogram[i] = 0;
+		histogramLocal[i] = 0;
 	}
 }
 
@@ -134,49 +142,60 @@ void Experiment::setNumberOfExperiments( long experiments ) {
 }
 
 void Experiment::calc() {
-
 	int numberOfProcesses, currentProcess;
     myMPI->MPI_Comm_size( MPI_COMM_WORLD, &numberOfProcesses);
 	myMPI->MPI_Comm_rank( MPI_COMM_WORLD, &currentProcess);
+
 	//1. Get time table with times needed of each process to do 10 exsperiments
-	timeTable = new double[numberOfProcesses];
+	//for(int i=0; i<numberOfProcesses; i++){
+	double timeResult = getTime(currentProcess, 10);
+	MPI_Send(&timeResult, 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
 
-	for(int i=0; i<numberOfProcesses; i++)
-		timeTable[i] = getTime(i, 10);
-
-	//done
-
-	//2. Count how many tests should each process take
-	//2a. Sum all the times
-	numberOfTestsForEachProcess = new int[numberOfProcesses];
-	double sumOfAllTimes = 0;
-	for(int i=0; i<numberOfProcesses; ++i)
-		sumOfAllTimes += timeTable[i];
-
-	// cout << "Suma wszystkich czasów: " << sumOfAllTimes << endl;
-
-	//2b. Get the sum percentage for each proces
-	int percentageForEachProcessTime[numberOfProcesses];
-	for(int i=0; i<numberOfProcesses; ++i){
-		percentageForEachProcessTime[i] = (timeTable[i]/sumOfAllTimes) * 100;
-		cout << "Procentowa wartosc czasu dla procesu " << i << " to " << percentageForEachProcessTime[i] << "%."
-			 << " Czas wynosi: " << timeTable[i] << " z calosci " << sumOfAllTimes << endl;
-	}
-
-	cout << "######################################################################################" << endl;
-	cout << endl;
-	cout << endl;
 	if(currentProcess == 0){
-		// cout << "Tutaj proces " << currentProcess << " i moj czas dla policzenia 10 testow to: " << timeTable[currentProcess] << endl;
-	}
-	else{
-		// cout << "Tutaj proces " << currentProcess << " i moj czas dla policzenia 10 testow to: " << timeTable[currentProcess] << endl;
+		for(int i=0; i<numberOfProcesses; i++)
+			MPI_Recv(&timeTable[i], 1, MPI_DOUBLE, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+		//done
 
+		//2. Count how many tests should each process take
+		//2a. Sum all the times
+		//cout << "timeTable: " << timeTable[0] << " ! " << timeTable[1];
+		double sumOfAllTimes = 0;
+		for(int i=0; i<numberOfProcesses; ++i)
+			sumOfAllTimes += timeTable[i];
+		//done
+		//2b. Get the sum percentage for each proces
+		int percentageForEachProcessTime[numberOfProcesses];
+		int numberOfTestsLeft = experiments - numberOfProcesses * 10;
+		for(int i=0; i<numberOfProcesses; ++i){
+			percentageForEachProcessTime[i] = (timeTable[i]/sumOfAllTimes) * 100;
+			if(percentageForEachProcessTime[i] < 35){
+				numberOfTestsForEachProcess[i] = (numberOfTestsLeft - ((numberOfProcesses - i) * 100))/(numberOfProcesses - i) * 1.3;
+				numberOfTestsLeft -= numberOfTestsForEachProcess[i];
+			}
+			else if(percentageForEachProcessTime[i] < 70){
+				numberOfTestsForEachProcess[i] = (numberOfTestsLeft - ((numberOfProcesses - i) * 100))/(numberOfProcesses - i) * 1.2;
+				numberOfTestsLeft -= numberOfTestsForEachProcess[i];
+			}
+			else{
+				numberOfTestsForEachProcess[i] = (numberOfTestsLeft - ((numberOfProcesses - i) * 100))/(numberOfProcesses - i);
+				numberOfTestsLeft -= numberOfTestsForEachProcess[i];
+			}
+
+			if(numberOfTestsLeft < 0)
+				numberOfTestsForEachProcess[i] += numberOfTestsLeft;
+
+			// cout << "Proces " << i << " BEDZIE LICZYL " << numberOfTestsForEachProcess[i] << " TESTOW" << endl;
+		}
+		//done
 	}
-	//cout << "TU EXPERIMENT, WTF SIE DZIJE";
-	// for (long l = 0; l < experiments; l++) {
-	// 	histogram[singleExperimentResult()]++;
-	// }
+	MPI_Bcast(numberOfTestsForEachProcess, numberOfProcesses, MPI_INT, 0, MPI_COMM_WORLD);
+	MPI_Bcast(used, balls, MPI_C_BOOL, 0, MPI_COMM_WORLD);
+	MPI_Bcast(forbidden, balls, MPI_C_BOOL, 0, MPI_COMM_WORLD);
+
+	for(int i = 0; i < numberOfTestsForEachProcess[currentProcess]; ++i)
+		histogramLocal[singleExperimentResult()]++;
+
+	MPI_Reduce(histogramLocal, histogram, hmax, MPI_LONG, MPI_SUM, 0, MPI_COMM_WORLD);
 }
 
 long Experiment::getHistogramSize() {
