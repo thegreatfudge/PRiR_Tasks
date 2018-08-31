@@ -149,6 +149,8 @@ void Experiment::calc() {
 	//1. Get time table with times needed of each process to do 10 exsperiments
 	//for(int i=0; i<numberOfProcesses; i++){
 	double timeResult = getTime(currentProcess, 10);
+	// long *histogramLocal;
+	// histogramLocal = new long[hmax];
 	MPI_Send(&timeResult, 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
 
 	if(currentProcess == 0){
@@ -166,26 +168,18 @@ void Experiment::calc() {
 		//2b. Get the sum percentage for each proces
 		int percentageForEachProcessTime[numberOfProcesses];
 		int numberOfTestsLeft = experiments - numberOfProcesses * 10;
+		int testToBeDivided = numberOfTestsLeft;
 		for(int i=0; i<numberOfProcesses; ++i){
 			percentageForEachProcessTime[i] = (timeTable[i]/sumOfAllTimes) * 100;
-			if(percentageForEachProcessTime[i] < 35){
-				numberOfTestsForEachProcess[i] = (numberOfTestsLeft - ((numberOfProcesses - i) * 100))/(numberOfProcesses - i) * 1.3;
-				numberOfTestsLeft -= numberOfTestsForEachProcess[i];
-			}
-			else if(percentageForEachProcessTime[i] < 70){
-				numberOfTestsForEachProcess[i] = (numberOfTestsLeft - ((numberOfProcesses - i) * 100))/(numberOfProcesses - i) * 1.2;
-				numberOfTestsLeft -= numberOfTestsForEachProcess[i];
-			}
-			else{
-				numberOfTestsForEachProcess[i] = (numberOfTestsLeft - ((numberOfProcesses - i) * 100))/(numberOfProcesses - i);
-				numberOfTestsLeft -= numberOfTestsForEachProcess[i];
-			}
-
+			numberOfTestsForEachProcess[i] = (((100-percentageForEachProcessTime[i]) * testToBeDivided)/100) / (numberOfProcesses-1);
+			numberOfTestsLeft -= numberOfTestsForEachProcess[i];
 			if(numberOfTestsLeft < 0)
 				numberOfTestsForEachProcess[i] += numberOfTestsLeft;
 
 			// cout << "Proces " << i << " BEDZIE LICZYL " << numberOfTestsForEachProcess[i] << " TESTOW" << endl;
 		}
+		if(numberOfTestsLeft > 0)
+			numberOfTestsForEachProcess[numberOfProcesses-1] += numberOfTestsLeft;
 		//done
 	}
 	MPI_Bcast(numberOfTestsForEachProcess, numberOfProcesses, MPI_INT, 0, MPI_COMM_WORLD);
